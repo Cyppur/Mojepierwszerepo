@@ -1,0 +1,16 @@
+* {
+    display: flex;
+    margin: 1px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    gap: 10px;
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    gap: 10px;
+}
