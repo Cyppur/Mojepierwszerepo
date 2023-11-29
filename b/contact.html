@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="1.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        form {
+            max-width: 400px;
+            margin: 20px auto;
+        }
+        label, input {
+            display: block;
+            margin-bottom: 10px;
+        }
+        label {
+            color: aliceblue;
+        }
+    
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="cos.html">HO<span>ME</span></a></li>
+            <li><a href="#">FORTNITE <span>TEAM</span></a></li>
+            <li><a href="aboutus.html">ABOUT <span>US</span></a></li>
+            <li><a href="contact.html">CONT<span>ACT</span></a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="Home">
+            <div class="cos">
+                <body>
+                
+                <form action="przetwarzanie_formularza.php" method="post">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                
+                    <label for="login">Login:</label>
+                    <input type="text" id="login" name="login" required>
+                
+                    <label for="password">Hasło:</label>
+                    <input type="password" id="password" name="password" required>
+                
+                    <input type="submit" value="Zarejestruj się">
+                </form> 
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
